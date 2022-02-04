@@ -1,8 +1,8 @@
+import { NgModule } from "@angular/core";
+import { RouterModule } from '@angular/router';
+
 import { AlunoFormComponent } from './aluno-form/aluno-form.component';
 import { AlunoDetalheComponent } from './aluno-detalhe/aluno-detalhe.component';
-import { RouterModule } from '@angular/router';
-import { NgModule } from "@angular/core";
-
 import { AlunosComponent } from './alunos.component';
 
 
