@@ -14,7 +14,7 @@ const alunosRoutes = [
     { path: 'novo', component: AlunoFormComponent },
     { path: ':id', component: AlunoDetalheComponent },
     { path: ':id/editar', component: AlunoFormComponent,
-        CanDeactivate: [AlunosDeactivateGuard] }
+        canDeactivate: [AlunosDeactivateGuard] }
   ] },
 
 ];
