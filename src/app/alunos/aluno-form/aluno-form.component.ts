@@ -54,7 +54,7 @@ export class AlunoFormComponent implements OnInit, OnDestroy, IFormCanDeactivate
   }
 
   podeDesativar() {
-    this.podeMudarRota();
+    return this.podeMudarRota();
   }
 
 }
